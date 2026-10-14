@@ -21,10 +21,10 @@ body {
 }
 /* 공통영역 */
 .inner {
-  width: 80%;
-  max-width: 1080px;
+  width: 90%;
+  max-width: 1280px;
   margin: auto;
-  /* background-color: rgb(255, 161, 161); */
+  background-color: rgb(255, 205, 205);
 }
 /* 전체 레이아웃 */
 
@@ -108,5 +108,43 @@ main {
 .filter-btn img {
   width: 25px;
 }
-.filter-btn span {
+
+/* 리스트 */
+
+.card-list {
+  padding-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 32px 24px;
+}
+.card-list ul {
+}
+.card-list ul li {
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card-list > ul > li > img {
+  width: 100%;
+}
+
+.card-info {
+  padding: 30px;
+  /* padding-left: 5%; */
+}
+
+/* 나라 */
+.country {
+  color: #999;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.country img {
+    width: 24px;
+}
+
+.country h3 {
+    font-weight: 400;
+    font-size: 18px;
 }
