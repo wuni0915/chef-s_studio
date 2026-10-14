@@ -1,13 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- 파비콘 -->
-     <link rel="icon" href="images/파비콘.png">
+    <link rel="icon" href="images/파비콘.png" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- 반응형 css 파일 -->
     <title>Chef's studio</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!-- 전체 레이아웃 -->
+    <div class="wrap">
+      <!-- header -->
+      <header>
+        <div class="inner">
+          <!-- logo -->
+          <h1><a href="#">Chef's studio</a></h1>
+          <!-- nav -->
+          <nav class="nav">
+            <!-- 메뉴 -->
+            <div class="menu">
+              <a href="#">쿠킹클래스</a>
+              <a href="#">소개</a>
+              <a href="#">로그인</a>
+            </div>
+            <!-- 검색 -->
+            <div class="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <!-- 햄버거 메뉴 -->
+            <div class="hamburger">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- main -->
+      <main>
+        <!-- 소개 영역 -->
+        <section class="intro inner">
+          <!-- 소개글 -->
+          <div class="intro-text">
+            <h2>👃안녕하세요!!</h2>
+            <p>
+              최고의 요리 전문가와 함께 배우는 <br />쿠킹 클래스를 만나보세요.
+            </p>
+          </div>
+          <!-- 필터 -->
+          <div class="filter-btn">
+            <img src="images/bi_filter-left.svg" />
+            <span>필터</span>
+          </div>
+        </section>
+        <!-- 카드 목록 -->
+      </main>
+    </div>
+  </body>
 </html>

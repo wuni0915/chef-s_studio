@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #eee;
+}
+/* 공통영역 */
+.inner {
+  width: 80%;
+  max-width: 1080px;
+  margin: auto;
+  /* background-color: rgb(255, 161, 161); */
+}
+/* 전체 레이아웃 */
+
+.wrap {
+  width: 100%;
+}
+/* 상단 */
+header {
+  width: 100%;
+  background-color: #fff;
+  height: 80px;
+}
+header .inner {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Merriweather", serif;
+}
+/* nav */
+.nav {
+  width: 25%;
+  display: flex;
+  gap: 3%;
+  /* background-color: aqua; */
+}
+/* menu */
+.menu {
+  width: 90%;
+  display: flex;
+  gap: 8%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu a {
+  /* width: calc(100% / 3); */
+  text-align: center;
+}
+
+/* hamburger */
+.hamburger {
+  display: none;
+}
+/* main */
+main {
+  padding: 146px 0;
+}
+/* 소개 영역 */
+.intro {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.intro-text h2 {
+  font-size: 48px;
+  /* font-family: "Merriweather", serif; */
+  margin-bottom: 3%;
+}
+
+.intro-text p {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+/* 필터 */
+.filter-btn {
+  color: #fff;
+  background-color: #333;
+  padding: 1% 1.4%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* font-size: px; */
+}
+.filter-btn img {
+  width: 25px;
+}
+.filter-btn span {
+}
