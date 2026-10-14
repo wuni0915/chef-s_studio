@@ -23,11 +23,26 @@
     .intro-text p br {
         display: none;
     }
+    /* list */
+    .card-list ul{
+        /* display: grid; */
+        grid-template-columns: repeat(3, minmax(0, 1fr)) ;
+    }
 }
 /* 480 */
 @media (max-width: 480px) {
     .intro-text p br {
         display: block;
+    }
+        .card-list ul{
+        /* display: grid; */
+        grid-template-columns: repeat(2, minmax(0, 1fr)) ;
+    }
+    .country p {
+        font-size: 14px;
+    }
+    .country h3 {
+        font-size: 16px;
     }
 
 }
