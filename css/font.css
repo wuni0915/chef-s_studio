@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'OwnglyphYuntaeng';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/2608211801@font-160/font-160/온글잎 윤탱체.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    src: url("../fonts/온글잎\ 윤탱체.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+
+/* 파일을 다운받으면 사이트가 사라져도 파일로 쓰면 되니까 쉽다. */

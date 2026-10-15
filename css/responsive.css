@@ -1,6 +1,18 @@
 @media (max-width: 768px) {
   .menu {
     display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    gap: 20px;
+    padding: 20px 0;
+    flex-direction: column;
+    /* background-color: aqua; */
+
+  }
+
+  .menu.show {
+    display: block;
   }
   .hamburger {
     display: block;
