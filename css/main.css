@@ -51,7 +51,7 @@ header h1 {
 }
 /* nav */
 .nav {
-  position: relative;
+
   width: 25%;
   display: flex;
   gap: 3%;

@@ -8,16 +8,17 @@
     padding: 20px 0;
     flex-direction: column;
     /* background-color: aqua; */
-
+    /* flex-wrap: wrap; */
   }
 
   .menu.show {
-    display: block;
+    display: flex;
   }
   .hamburger {
     display: block;
   }
   .nav {
+    position: relative;
     justify-content: flex-end;
   }
   /* main */
@@ -30,58 +31,57 @@
     font-size: 32px;
   }
   .intro-text p {
-      font-size: 16px;
-    }
-    .intro-text p br {
-        display: none;
-    }
-    /* list */
-    .card-list ul{
-        /* display: grid; */
-        grid-template-columns: repeat(3, minmax(0, 1fr)) ;
-    }
+    font-size: 16px;
+  }
+  .intro-text p br {
+    display: none;
+  }
+  /* list */
+  .card-list ul {
+    /* display: grid; */
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 /* 480 */
 @media (max-width: 480px) {
-    .intro-text p br {
-        display: block;
-    }
-        .card-list ul{
-        /* display: grid; */
-        grid-template-columns: repeat(2, minmax(0, 1fr)) ;
-    }
-    .country p {
-        font-size: 14px;
-    }
-    .country h3 {
-        font-size: 16px;
-    }
-
+  .intro-text p br {
+    display: block;
+  }
+  .card-list ul {
+    /* display: grid; */
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .country p {
+    font-size: 14px;
+  }
+  .country h3 {
+    font-size: 16px;
+  }
 }
 
 /* 390 */
 @media (max-width: 390px) {
-    header {
-        height: 55px;
-    }
+  header {
+    height: 55px;
+  }
   header h1 {
-      font-size: 22px;
-    }
-    .intro-text h2 {
-        font-size: 28px;
-    }
-    .intro-text p {
-        font-size: 14px;
-    }
-    .filter-btn {
-        gap: 7px;
-        font-size: 12px;
-        border-radius: 3px;
-    }
-    .filter-btn img {
-        width: 20px;
-    }
-    .filter-btn span {
-        display: none;
-    }
+    font-size: 22px;
+  }
+  .intro-text h2 {
+    font-size: 28px;
+  }
+  .intro-text p {
+    font-size: 14px;
+  }
+  .filter-btn {
+    gap: 7px;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  .filter-btn img {
+    width: 20px;
+  }
+  .filter-btn span {
+    display: none;
+  }
 }
